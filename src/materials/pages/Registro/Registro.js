@@ -69,7 +69,8 @@ const Registro = () => {
                                                 <span><i aria-hidden="true" class="fa fa-user"></i></span>
                                                 <input type="text" name="nombre" placeholder="Apellido"></input>
                                             </div>                                            
-                                    </div>
+                                </div>  
+                                
                                 </div>
                                     <div class="input_field radio_option">
                                         <input type="radio" name="radiogroup1" id="rd1"></input>

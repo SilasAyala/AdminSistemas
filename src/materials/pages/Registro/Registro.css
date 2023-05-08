@@ -413,3 +413,7 @@ body {
 .button {
     height: auto !important;
 }
+
+.input_field label {
+    color: black;
+}

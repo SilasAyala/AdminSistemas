@@ -24,8 +24,8 @@ const MainNavigation = (props) => {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/servicios' className='nav-link active'>
-                                Servicios
+                            <Link to='/pago' className='nav-link active'>
+                                Realizar Pago
                             </Link>
                         </li>
                         <li className='nav-item'>

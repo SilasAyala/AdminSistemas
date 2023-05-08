@@ -8,6 +8,7 @@ import Reciclaje from './materials/pages/Reciclaje';
 import About from './materials/pages/about';
 import Registro from './materials/pages/Registro/Registro';
 import Contacto from './materials/pages/Contacto/Contacto';
+import CPago from './materials/pages/Pago/C_Pago';
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
 
           <Route path="/contacto">
             <Contacto />
+          </Route>
+
+          <Route path="/pago">
+            <CPago/>
           </Route>
 
           <Redirect to='/' />
