@@ -9,6 +9,7 @@ import About from './materials/pages/about';
 import Registro from './materials/pages/Registro/Registro';
 import Contacto from './materials/pages/Contacto/Contacto';
 import CPago from './materials/pages/Pago/C_Pago';
+import LP from './materials/pages/LP/LP';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <main>
         <Switch>
           <Route path ="/" exact>
-            
+            <LP/>
           </Route>
 
           <Route path="/about" exact>

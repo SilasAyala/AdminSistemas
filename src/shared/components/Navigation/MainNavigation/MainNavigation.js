@@ -14,15 +14,10 @@ const MainNavigation = (props) => {
             </button>
 
             <h1 className="main-navigation__title">
-                <Link to="/"> Tu Gimnasio </Link>
+                <Link to="/"> Fitness Club </Link>
             </h1>
             <div className='collapse navbar-collapse text-center' id='navbarNav'>
                     <ul className='navbar-nav ms-auto'>
-                        <li className='nav-item'>
-                            <Link to='/about' className='nav-link active'>
-                                Acerca
-                            </Link>
-                        </li>
                         <li className='nav-item'>
                             <Link to='/pago' className='nav-link active'>
                                 Realizar Pago
@@ -37,9 +32,6 @@ const MainNavigation = (props) => {
                             <Link to='/registro' className='nav-link active'>
                                 Registrate
                             </Link>
-                        </li>
-                        <li className="nav-item">
-                            <a href="/" id="usuario"> <img src="https://cdn-icons-png.flaticon.com/512/219/219986.png" alt="User"></img> </a>  
                         </li>
                     </ul>
                 </div>
