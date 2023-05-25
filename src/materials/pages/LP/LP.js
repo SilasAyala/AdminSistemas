@@ -1,5 +1,9 @@
 import './LP.css'
-import imagen from '../imagenes/about.jpg'
+import imagen from '../imagenes/gim1.jpg'
+import imagen2 from '../imagenes/sauna.jpg'
+import imagen3 from '../imagenes/about1.jpg'
+import imagen4 from '../imagenes/gim2.jpg'
+import imagen5 from '../imagenes/gim4.jpg'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
@@ -24,10 +28,10 @@ const LP = () => {
                         </div>
                         <h2 class='title-sucursales'>Nuestras Instalaciones</h2>
                         <div class='slide-sucursales'>
-                            <img src={imagen} alt="" />
-                            <img src={imagen} alt="" />
-                            <img src={imagen} alt="" />
-                            <img src={imagen} alt="" />
+                            <img src={imagen5} alt="" />
+                            <img src={imagen2} alt="" />
+                            <img src={imagen3} alt="" />
+                            <img src={imagen4} alt="" />
                         </div>  
                     </div>
                     <br />

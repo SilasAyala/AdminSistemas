@@ -10,6 +10,7 @@ import Registro from './materials/pages/Registro/Registro';
 import Contacto from './materials/pages/Contacto/Contacto';
 import CPago from './materials/pages/Pago/C_Pago';
 import LP from './materials/pages/LP/LP';
+import Pago from './materials/pages/Pago_Consulta/Pago';
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
           </Route>
 
           <Route path="/pago">
+            <Pago/>
+          </Route>
+
+          <Route path="/user/pago">
             <CPago/>
           </Route>
 

@@ -96,7 +96,14 @@ const CPago = () => {
                                 <input type="text" maxLength="4" class="cvv-input" />
                             </div>
                         </div>
+                        <br />
+                        <div className='Saldo'>
+                            <h2>Saldo:  </h2>
+                            
+                            <h2 id='Monto'>Aqui va el monto!</h2>
+                        </div>
                         <input type="submit" value="Pagar" class="submit-btn" />
+                        
                     </form>
                 </div>
 
